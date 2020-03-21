@@ -20,3 +20,4 @@ for key,val in freq.items():
     key = key.encode("UTF-8", "replace")
     print(str(key) + ':' + str(val))
 freq.plot(20, cumulative=False)
+
